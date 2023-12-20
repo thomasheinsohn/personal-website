@@ -9,9 +9,9 @@ import videoPlayerImage from '@/images/resources/video-player.svg'
 
 const resources = [
   {
-    title: 'Figma icon templates',
+    title: 'Master of Science (M.Sc.)',
     description:
-      'Pefectly structured templates for quickly designing new icons at dozens of common sizes.',
+      'Applied Computer Science / Software Engineering from Nordakademie Graduate School, Hamburg (Enrolled October 2020 - Present)',
     image: function FigmaImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
@@ -21,9 +21,9 @@ const resources = [
     },
   },
   {
-    title: 'Weekly icon teardowns',
+    title: 'Bachelor of Science (B.Sc.)',
     description:
-      'Weekly videos where we dissect and recreate beautiful icons we find on the web.',
+      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
@@ -44,13 +44,93 @@ const resources = [
     },
   },
   {
-    title: 'Community of icon designers',
+    title: 'Bachelor of Science (B.Sc.)',
     description:
-      "A private Discord server where you can get help and give feedback on each others' work.",
-    image: function DiscordImage() {
+      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
+    image: function VideoPlayerImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
-          <Image src={discordImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            className="absolute inset-0 h-full w-full object-cover"
+            src={abstractBackgroundImage}
+            alt=""
+            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
+          />
+          <Image
+            className="relative"
+            src={videoPlayerImage}
+            alt=""
+            unoptimized
+          />
+        </div>
+      )
+    },
+  },
+  {
+    title: 'Bachelor of Science (B.Sc.)',
+    description:
+      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
+    image: function VideoPlayerImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            className="absolute inset-0 h-full w-full object-cover"
+            src={abstractBackgroundImage}
+            alt=""
+            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
+          />
+          <Image
+            className="relative"
+            src={videoPlayerImage}
+            alt=""
+            unoptimized
+          />
+        </div>
+      )
+    },
+  },
+  {
+    title: 'Bachelor of Science (B.Sc.)',
+    description:
+      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
+    image: function VideoPlayerImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            className="absolute inset-0 h-full w-full object-cover"
+            src={abstractBackgroundImage}
+            alt=""
+            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
+          />
+          <Image
+            className="relative"
+            src={videoPlayerImage}
+            alt=""
+            unoptimized
+          />
+        </div>
+      )
+    },
+  },
+  {
+    title: 'Bachelor of Science (B.Sc.)',
+    description:
+      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
+    image: function VideoPlayerImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            className="absolute inset-0 h-full w-full object-cover"
+            src={abstractBackgroundImage}
+            alt=""
+            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
+          />
+          <Image
+            className="relative"
+            src={videoPlayerImage}
+            alt=""
+            unoptimized
+          />
         </div>
       )
     },
@@ -106,5 +186,5 @@ export function Vitae() {
     </section>
   )
 }
-// M.Sc. Nordakademie Graduate School, Angewandte Informatik / Software Engineering, Hamburg (seit 10/20 to today)
+// M.Sc. Nordakademie Graduate School, Angewandte Informatik / Software Engineering, Hamburg (from 10/20 to today)
 // B.Sc. Universität Potsdam, Wirtschaftsinformatik, Potsdam (10/16 bis 10/20)
