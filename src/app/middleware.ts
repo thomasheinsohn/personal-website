@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server'
 
-// Trigger this middleware to run on all routes
+// Trigger this middleware to run on the `/secret-page` route
 export const config = {
-  matcher: '/*', // Apply middleware to all routes
+  matcher: '/secret-page',
 }
 
 export default function middleware(request: Request) {
