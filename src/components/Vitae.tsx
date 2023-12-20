@@ -14,8 +14,19 @@ const resources = [
       'Applied Computer Science / Software Engineering from Nordakademie Graduate School, Hamburg (Enrolled October 2020 - Present)',
     image: function FigmaImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-          <Image src={figmaImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            className="absolute inset-0 h-full w-full object-cover"
+            src={abstractBackgroundImage}
+            alt=""
+            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
+          />
+          <Image
+            className="relative"
+            src={videoPlayerImage}
+            alt=""
+            unoptimized
+          />
         </div>
       )
     },
@@ -149,8 +160,7 @@ export function Vitae() {
           Curriculum Vitae
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Tools and resources you can use to get started even faster and
-          progress even further.
+          Overview of practical experience and academic experience .....
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Design assets, icon teardowns, and a community of fellow icon

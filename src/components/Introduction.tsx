@@ -86,10 +86,14 @@ export function Introduction() {
               ))}
             </ExpandableItems>
           </ol>
+          <ol className=" mt-8 flex w-full flex-row items-center justify-end space-x-4">
+            <li className="font-small text-base">1 - Low</li>
+            <li className="font-small text-base">2 - Middle</li>
+            <li className="font-small text-base">3 - High</li>
+          </ol>
           <ExpandableButton>See more</ExpandableButton>
         </Expandable>
       </Container>
     </section>
   )
 }
-// hier auf die skill eingehen, frontend, backend, devops, management zeug
