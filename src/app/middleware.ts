@@ -8,6 +8,6 @@ export const config = {
 export default function middleware(request: Request) {
   const url = new URL(request.url)
   url.pathname = '/login'
-
+  console.log(`Middleware triggered!`)
   return NextResponse.rewrite(url)
 }
