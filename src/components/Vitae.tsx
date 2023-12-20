@@ -106,3 +106,5 @@ export function Vitae() {
     </section>
   )
 }
+// M.Sc. Nordakademie Graduate School, Angewandte Informatik / Software Engineering, Hamburg (seit 10/20 to today)
+// B.Sc. Universität Potsdam, Wirtschaftsinformatik, Potsdam (10/16 bis 10/20)

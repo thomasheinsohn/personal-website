@@ -1,5 +1,4 @@
 'use client'
-import Link from 'next/link'
 import { useState, FormEvent } from 'react'
 import { Container } from '@/components/Container'
 import { GridPattern } from '@/components/GridPattern'

@@ -2,25 +2,6 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
 import coverImage from '@/images/profile-pricture.jpeg'
-import logoImage from '@/images/logo.png'
-import Link from 'next/link'
-
-function TestLogin() {
-  return (
-    <div>
-      <Link href="/login">Login</Link>
-    </div>
-  )
-}
-function LogoDisplay() {
-  return (
-    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
-      <div className="flex justify-center lg:justify-center">
-        <Image className="w-1/4" src={logoImage} alt="" priority />
-      </div>
-    </figure>
-  )
-}
 
 export function Hero() {
   return (

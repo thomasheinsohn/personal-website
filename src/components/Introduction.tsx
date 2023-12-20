@@ -7,28 +7,28 @@ import {
 import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
-  'Getting started': {
-    'Getting started': 1,
-    'Intro to Figma': 15,
-    'Setting up your first artboard': 20,
+  Frontend: {
+    'React + NextJS': 1,
+    'JavaScript + TypeScript': 20,
   },
-  Fundamentals: {
-    'Strokes and fills': 21,
-    'End points': 22,
-    'Bezier curves': 26,
-    'Designing on a grid': 31,
-    'Vector shapes': 45,
+  Backend: {
+    'Java + Kotlin': 50,
+    Spring: 78,
+    'RESTful Web-Services': 78,
+    'SQL + NoSQL': 78,
   },
-  'Boolean operations': {
-    'Combining shapes': 50,
-    'Subtracting shapes': 57,
-    'Intersecting shapes': 66,
-    Flattening: 78,
+  DevOps: {
+    Docker: 82,
+    Jenkins: 82,
+    'ELK-Stack (Elasticsearch + Logstash + Kibana)': 82,
   },
-  'Optimizing for production': {
-    'Preparing for SVG': 82,
-    'Configuring your export settings': 88,
-    'Minifying and removing metadata': 95,
+  Management: {
+    SCRUM: 82,
+    'GitHub + Jira + Confluence + Bitbucket': 82,
+  },
+  Languages: {
+    German: 82,
+    English: 82,
   },
 }
 
@@ -44,13 +44,10 @@ export function Introduction() {
           Introduction
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Get a look at all of the content covered in the book. Everything you
-          need to know is inside.
+          Overview of the hard skills ...
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          “Everything Starts as a Square” is comprised of 240 tightly edited,
-          highly visual pages designed to teach you everything you need to know
-          about icon design with no unnecessary filler.
+          some more explaining text tbd
         </p>
         <Expandable>
           <ol role="list" className="mt-16 space-y-10 sm:space-y-16">
@@ -95,3 +92,4 @@ export function Introduction() {
     </section>
   )
 }
+// hier auf die skill eingehen, frontend, backend, devops, management zeug
