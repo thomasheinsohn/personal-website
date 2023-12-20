@@ -1,18 +1,18 @@
 import { Contact } from '@/components/Contact'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
-import { Introduction } from '@/components/Introduction'
+import { Hint } from '@/components/Hint'
 import { NavBar } from '@/components/NavBar'
 import { Vitae } from '@/components/Vitae'
-import { TableOfContents } from '@/components/TableOfContents'
+import { Introduction } from '@/components/Introduction'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Introduction />
+      <Hint />
       <NavBar />
-      <TableOfContents />
+      <Introduction />
       <Vitae />
       <Contact />
       <Footer />
