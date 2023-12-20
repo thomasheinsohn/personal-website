@@ -14,9 +14,7 @@ const sections = [
       </>
     ),
   },
-  { id: 'screencasts', title: 'Screencasts' },
-  { id: 'resources', title: 'Resources' },
-  { id: 'pricing', title: 'Pricing' },
+  { id: 'vitae', title: 'Curriculum Vitae' },
   { id: 'author', title: 'Author' },
 ]
 
