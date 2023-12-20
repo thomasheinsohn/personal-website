@@ -15,7 +15,7 @@ const sections = [
     ),
   },
   { id: 'vitae', title: 'Curriculum Vitae' },
-  { id: 'author', title: 'Author' },
+  { id: 'contact', title: 'Contact' },
 ]
 
 function MenuIcon({

@@ -12,11 +12,11 @@ function TestLogin() {
     </div>
   )
 }
-function TopInformation() {
+function LogoDisplay() {
   return (
     <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
-      <div className="flex justify-center lg:justify-start">
-        <Image className="w-1/2" src={logoImage} alt="" priority />
+      <div className="flex justify-center lg:justify-center">
+        <Image className="w-1/4" src={logoImage} alt="" priority />
       </div>
     </figure>
   )
@@ -43,7 +43,7 @@ export function Hero() {
 
           <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pb-14 lg:pl-16 lg:pr-0 xl:pl-20">
             <div className="hidden lg:absolute lg:-top-32 lg:bottom-0 lg:left-[-100vw] lg:right-[-100vw] lg:block lg:bg-slate-100" />
-            <TopInformation />
+            <LogoDisplay />
           </div>
           <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
             <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
@@ -62,7 +62,7 @@ export function Hero() {
                 <Button href="#vitae" color="blue">
                   curriculum vitae
                 </Button>
-                <Button href="#pricing" variant="outline" color="blue">
+                <Button href="#contact" variant="outline" color="blue">
                   contact
                 </Button>
               </div>
