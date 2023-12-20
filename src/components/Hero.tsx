@@ -41,10 +41,10 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="relative px-2 sm:px-4 lg:col-span-5 lg:pb-10 lg:pl-12 lg:pr-0 xl:pl-14">
+          {/* <div className="relative px-2 sm:px-4 lg:col-span-5 lg:pb-10 lg:pl-12 lg:pr-0 xl:pl-14">
             <div className="hidden lg:absolute lg:-top-32 lg:bottom-0 lg:left-[-100vw] lg:right-[-100vw] lg:block lg:bg-slate-100" />
             <LogoDisplay />
-          </div>
+          </div> */}
           <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
             <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
               <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
