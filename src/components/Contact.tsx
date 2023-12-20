@@ -3,11 +3,17 @@ import Link from 'next/link'
 
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
-import authorImage from '@/images/avatars/author.png'
+import logoImage from '@/images/logo2.png'
 
 function TwitterIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
-    <svg aria-hidden="true" viewBox="0 0 40 40" {...props}>
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 40 40"
+      width="40" // consistent width
+      height="40" // consistent height
+      {...props}
+    >
       <path d="M13.817 33.753c12.579 0 19.459-10.422 19.459-19.458 0-.297 0-.592-.02-.884a13.913 13.913 0 0 0 3.411-3.543 13.65 13.65 0 0 1-3.928 1.077 6.864 6.864 0 0 0 3.007-3.784 13.707 13.707 0 0 1-4.342 1.66 6.845 6.845 0 0 0-11.655 6.239A19.417 19.417 0 0 1 5.654 7.915a6.843 6.843 0 0 0 2.117 9.128 6.786 6.786 0 0 1-3.104-.853v.086a6.842 6.842 0 0 0 5.487 6.704 6.825 6.825 0 0 1-3.088.116 6.847 6.847 0 0 0 6.39 4.75A13.721 13.721 0 0 1 3.334 30.68a19.36 19.36 0 0 0 10.483 3.066" />
     </svg>
   )
@@ -16,9 +22,10 @@ function GitHubIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="24"
-      width="23.25"
       viewBox="0 0 496 512"
+      width="40" // consistent width
+      height="40" // consistent height
+      {...props}
     >
       <path
         fill="#0061ff"
@@ -27,8 +34,36 @@ function GitHubIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
     </svg>
   )
 }
+function LinkedInIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 48 48"
+      width="40"
+      height="40"
+      {...props}
+    >
+      <path
+        fill="#0078d4"
+        d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z"
+      />
+      <path
+        d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z"
+        opacity=".05"
+      />
+      <path
+        d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z"
+        opacity=".07"
+      />
+      <path
+        fill="#fff"
+        d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"
+      />
+    </svg>
+  )
+}
 
-export function Author() {
+export function Contact() {
   return (
     <section
       id="contact"
@@ -43,14 +78,14 @@ export function Author() {
           <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
             <Image
               className="absolute inset-0 h-full w-full object-cover"
-              src={authorImage}
+              src={logoImage}
               alt=""
               sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
             />
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
             <SectionHeading number="3" id="author-title">
-              Author
+              Contact
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
               <span className="block text-blue-600">Mira Lindehoff –</span> Hey
@@ -67,11 +102,11 @@ export function Author() {
             </p>
             <p className="mt-8">
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/thomas-heinsohn-9873aa1a0/"
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
               >
-                <TwitterIcon className="h-10 w-10 fill-current" />
-                <span className="ml-4">Follow on Twitter</span>
+                <LinkedInIcon className="h-10 w-10 fill-current" />
+                <span className="ml-4">Visit LinkedIn</span>
               </Link>
             </p>
             <p className="mt-8">
@@ -81,6 +116,15 @@ export function Author() {
               >
                 <GitHubIcon className="h-10 w-10 fill-current" />
                 <span className="ml-4">Visit GitHub</span>
+              </Link>
+            </p>
+            <p className="mt-8">
+              <Link
+                href="#"
+                className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
+              >
+                <TwitterIcon className="h-10 w-10 fill-current" />
+                <span className="ml-4">Visit Twitter</span>
               </Link>
             </p>
           </div>

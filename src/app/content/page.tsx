@@ -1,4 +1,4 @@
-import { Author } from '@/components/Author'
+import { Contact } from '@/components/Contact'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { Introduction } from '@/components/Introduction'
@@ -14,7 +14,7 @@ export default function Home() {
       <NavBar />
       <TableOfContents />
       <Vitae />
-      <Author />
+      <Contact />
       <Footer />
     </>
   )

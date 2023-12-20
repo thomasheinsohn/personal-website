@@ -15,7 +15,7 @@ export function Introduction() {
           “Everything Starts as a Square” is a book and video course that
           teaches you a simple method to designing icons that anyone can learn.
         </p>
-        <p className="mt-10">
+        {/* <p className="mt-10">
           <Link
             href="#free-chapters"
             className="text-base font-medium text-blue-600 hover:text-blue-800"
@@ -23,7 +23,7 @@ export function Introduction() {
             Get two free chapters straight to your inbox{' '}
             <span aria-hidden="true">&rarr;</span>
           </Link>
-        </p>
+        </p> */}
       </Container>
     </section>
   )
