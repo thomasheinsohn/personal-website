@@ -98,7 +98,7 @@ export function Contact() {
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
               >
                 <LinkedInIcon className="h-10 w-10 fill-current" />
-                <span className="ml-4">Visit LinkedIn</span>
+                <span className="ml-4">Contact via LinkedIn</span>
               </Link>
             </p>
             <p className="mt-8">
