@@ -14,7 +14,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Thomas Heinsohn',
   description:
-    'A book and video course that teaches you how to design your own icons from scratch.',
+    'Explore my professional journey in this interactive digital showcase on my personal website.',
 }
 
 export default function RootLayout({
