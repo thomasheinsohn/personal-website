@@ -8,18 +8,18 @@ import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
   Frontend: {
-    'React + NextJS': 4,
-    'JavaScript + TypeScript': 4,
+    'React + NextJS': 3,
+    'JavaScript + TypeScript': 3,
   },
   Backend: {
     'Java + Kotlin': 4,
     Spring: 4,
-    'RESTful Web-Services': 4,
-    'SQL + NoSQL': 4,
+    'RESTful Web-Services': 3,
+    'SQL + NoSQL': 3,
   },
   DevOps: {
-    Docker: 4,
-    Jenkins: 4,
+    Docker: 3,
+    Jenkins: 3,
     'ELK-Stack (Elasticsearch + Logstash + Kibana)': 4,
   },
   Management: {
@@ -44,7 +44,7 @@ export function Introduction() {
           Introduction
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Overview of the hard skills ...
+          Overview of the hard skills
         </p>
         {/* <p className="mt-4 text-lg tracking-tight text-slate-700">
           some more explaining text tbd
@@ -88,11 +88,10 @@ export function Introduction() {
           </ol>
           <ExpandableButton>See more</ExpandableButton>
           <ol className=" mt-8 flex w-full flex-row items-center justify-end space-x-4">
-            <li className="font-small text-base">1 - Very Low</li>
-            <li className="font-small text-base">2 - Low</li>
-            <li className="font-small text-base">3 - Middle</li>
-            <li className="font-small text-base">4 - High</li>
-            <li className="font-small text-base">5 - Very High</li>
+            <li className="font-small text-base">1 - Low</li>
+            <li className="font-small text-base">2 - Middle</li>
+            <li className="font-small text-base">3 - High</li>
+            <li className="font-small text-base">4 - Very High</li>
           </ol>
         </Expandable>
       </Container>
