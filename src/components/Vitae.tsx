@@ -11,7 +11,7 @@ const resources = [
   {
     title: 'Master of Science (M.Sc.)',
     description:
-      'Applied Computer Science / Software Engineering from Nordakademie Graduate School, Hamburg (Enrolled October 2020 - Present)',
+      'Applied Computer Science / Software Engineering from Nordakademie Graduate School, Hamburg (October 2020 - Present)',
     image: function FigmaImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
@@ -55,78 +55,8 @@ const resources = [
     },
   },
   {
-    title: 'Bachelor of Science (B.Sc.)',
-    description:
-      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
-    image: function VideoPlayerImage() {
-      return (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={videoPlayerImage}
-            alt=""
-            unoptimized
-          />
-        </div>
-      )
-    },
-  },
-  {
-    title: 'Bachelor of Science (B.Sc.)',
-    description:
-      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
-    image: function VideoPlayerImage() {
-      return (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={videoPlayerImage}
-            alt=""
-            unoptimized
-          />
-        </div>
-      )
-    },
-  },
-  {
-    title: 'Bachelor of Science (B.Sc.)',
-    description:
-      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
-    image: function VideoPlayerImage() {
-      return (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={videoPlayerImage}
-            alt=""
-            unoptimized
-          />
-        </div>
-      )
-    },
-  },
-  {
-    title: 'Bachelor of Science (B.Sc.)',
-    description:
-      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
+    title: 'Visit to India',
+    description: 'will be updated soon',
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
@@ -160,13 +90,13 @@ export function Vitae() {
           Curriculum Vitae
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Overview of practical experience and academic experience .....
+          Overview of practical experience and academic experience
         </p>
-        <p className="mt-4 text-lg tracking-tight text-slate-700">
+        {/* <p className="mt-4 text-lg tracking-tight text-slate-700">
           Design assets, icon teardowns, and a community of fellow icon
           designers where you can ask questions, get feedback, and accelerate
           your learning.
-        </p>
+        </p> */}
       </Container>
       <Container size="lg" className="mt-16">
         <ol
@@ -198,3 +128,5 @@ export function Vitae() {
 }
 // M.Sc. Nordakademie Graduate School, Angewandte Informatik / Software Engineering, Hamburg (from 10/20 to today)
 // B.Sc. Universität Potsdam, Wirtschaftsinformatik, Potsdam (10/16 bis 10/20)
+// overview of the trips i made?
+// list of the companies I worked in? and my current positions

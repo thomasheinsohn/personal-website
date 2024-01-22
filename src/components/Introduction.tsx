@@ -46,9 +46,9 @@ export function Introduction() {
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Overview of the hard skills ...
         </p>
-        <p className="mt-4 text-lg tracking-tight text-slate-700">
+        {/* <p className="mt-4 text-lg tracking-tight text-slate-700">
           some more explaining text tbd
-        </p>
+        </p> */}
         <Expandable>
           <ol role="list" className="mt-16 space-y-10 sm:space-y-16">
             <ExpandableItems>

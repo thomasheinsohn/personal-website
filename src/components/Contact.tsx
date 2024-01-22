@@ -88,10 +88,9 @@ export function Contact() {
               Contact
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Thomas Heinsohn –</span> Hey
-              there, I’m the author behind ‘Something’.
+              <span className="block text-blue-600">Thomas Heinsohn –</span> ...
             </p>
-            <p className="mt-4 text-lg tracking-tight text-slate-700">tbd</p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">...</p>
             <p className="mt-8">
               <Link
                 href="https://www.linkedin.com/in/thomas-heinsohn-9873aa1a0/"
@@ -110,7 +109,7 @@ export function Contact() {
                 <span className="ml-4">Visit GitHub</span>
               </Link>
             </p>
-            <p className="mt-8">
+            {/* <p className="mt-8">
               <Link
                 href="#"
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
@@ -118,7 +117,7 @@ export function Contact() {
                 <TwitterIcon className="h-10 w-10 fill-current" />
                 <span className="ml-4">Visit Twitter</span>
               </Link>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
