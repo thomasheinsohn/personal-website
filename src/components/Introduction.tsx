@@ -7,15 +7,15 @@ import {
 import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
-  Frontend: {
-    'React + NextJS': 3,
-    'JavaScript + TypeScript': 3,
-  },
   Backend: {
     'Java + Kotlin': 4,
     Spring: 4,
     'RESTful Web-Services': 4,
     'SQL + NoSQL': 4,
+  },
+  Frontend: {
+    'React + NextJS': 3,
+    'JavaScript + TypeScript': 3,
   },
   DevOps: {
     Docker: 4,

@@ -54,7 +54,8 @@ const resources = [
   },
   {
     title: 'Visit to China (October 2024)',
-    description: 'will be updated soon',
+    description:
+      'Educational trip with the university for two weeks of visiting companies and culture.',
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
@@ -76,7 +77,8 @@ const resources = [
   },
   {
     title: 'Visit to India (March 2023)',
-    description: 'will be updated soon',
+    description:
+      'Educational trip with the university for three weeks of visiting companies and culture.',
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
