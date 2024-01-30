@@ -88,9 +88,12 @@ export function Contact() {
               Contact
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Thomas Heinsohn –</span> ...
+              <span className="block text-blue-600">Thomas Heinsohn</span>
+              {/* text here */}
             </p>
-            <p className="mt-4 text-lg tracking-tight text-slate-700">...</p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+              Software Developer and Consultant
+            </p>
             <p className="mt-8">
               <Link
                 href="https://www.linkedin.com/in/thomas-heinsohn-9873aa1a0/"

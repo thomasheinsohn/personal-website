@@ -14,13 +14,13 @@ const tableOfContents = {
   Backend: {
     'Java + Kotlin': 4,
     Spring: 4,
-    'RESTful Web-Services': 3,
-    'SQL + NoSQL': 3,
+    'RESTful Web-Services': 4,
+    'SQL + NoSQL': 4,
   },
   DevOps: {
-    Docker: 3,
+    Docker: 4,
     Jenkins: 3,
-    'ELK-Stack (Elasticsearch + Logstash + Kibana)': 4,
+    'ELK-Stack (Elasticsearch + Logstash + Kibana)': 3,
   },
   Management: {
     SCRUM: 4,
@@ -28,7 +28,7 @@ const tableOfContents = {
   },
   Languages: {
     German: 4,
-    English: 4,
+    English: 4, // add the level C1?
   },
 }
 

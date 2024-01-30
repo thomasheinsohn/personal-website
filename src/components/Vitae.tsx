@@ -3,8 +3,6 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
 import abstractBackgroundImage from '@/images/resources/abstract-background.png'
-import discordImage from '@/images/resources/discord.svg'
-import figmaImage from '@/images/resources/figma.svg'
 import videoPlayerImage from '@/images/resources/video-player.svg'
 
 const resources = [
@@ -55,7 +53,29 @@ const resources = [
     },
   },
   {
-    title: 'Visit to India',
+    title: 'Visit to China (October 2024)',
+    description: 'will be updated soon',
+    image: function VideoPlayerImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            className="absolute inset-0 h-full w-full object-cover"
+            src={abstractBackgroundImage}
+            alt=""
+            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
+          />
+          <Image
+            className="relative"
+            src={videoPlayerImage}
+            alt=""
+            unoptimized
+          />
+        </div>
+      )
+    },
+  },
+  {
+    title: 'Visit to India (March 2023)',
     description: 'will be updated soon',
     image: function VideoPlayerImage() {
       return (
@@ -101,7 +121,8 @@ export function Vitae() {
       <Container size="lg" className="mt-16">
         <ol
           role="list"
-          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20"
+          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-2 lg:text-center xl:-mx-12"
+          // className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-2 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20"
         >
           {resources.map((resource) => (
             <li
