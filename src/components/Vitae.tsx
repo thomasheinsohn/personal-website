@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import abstractBackgroundImage from '@/images/resources/abstract-background.png'
-import videoPlayerImage from '@/images/resources/video-player.svg'
+import abstractBackgroundImage from '@/images/resources/background.png'
+import videoPlayerImage from '@/images/resources/uni-hatt.svg'
 
 const resources = [
   {
