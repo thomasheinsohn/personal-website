@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
 import abstractBackgroundImage from '@/images/resources/background.png'
-import videoPlayerImage from '@/images/resources/uni-hatt.svg'
+import universityHatImage from '@/images/resources/uni-hat.svg'
 
 const resources = [
   {
@@ -21,7 +21,7 @@ const resources = [
           />
           <Image
             className="relative"
-            src={videoPlayerImage}
+            src={universityHatImage}
             alt=""
             unoptimized
           />
@@ -44,7 +44,7 @@ const resources = [
           />
           <Image
             className="relative"
-            src={videoPlayerImage}
+            src={universityHatImage}
             alt=""
             unoptimized
           />
@@ -67,7 +67,7 @@ const resources = [
           />
           <Image
             className="relative"
-            src={videoPlayerImage}
+            src={universityHatImage}
             alt=""
             unoptimized
           />
@@ -90,7 +90,7 @@ const resources = [
           />
           <Image
             className="relative"
-            src={videoPlayerImage}
+            src={universityHatImage}
             alt=""
             unoptimized
           />

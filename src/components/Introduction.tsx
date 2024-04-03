@@ -23,12 +23,12 @@ const tableOfContents = {
     'ELK-Stack (Elasticsearch + Logstash + Kibana)': 3,
   },
   Management: {
-    SCRUM: 4,
+    Scrum: 4,
     'GitHub + Jira + Confluence + Bitbucket': 4,
   },
   Languages: {
     German: 4,
-    English: 4, // add the level C1?
+    English: 4,
   },
 }
 
