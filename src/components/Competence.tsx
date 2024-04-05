@@ -32,19 +32,19 @@ const tableOfContents = {
   },
 }
 
-export function Introduction() {
+export function Competence() {
   return (
     <section
-      id="introduction"
+      id="competence"
       aria-labelledby="table-of-contents-title"
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
       <Container>
         <SectionHeading number="1" id="table-of-contents-title">
-          Introduction
+          Competences
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Overview of the hard skills
+          Overview of the competences
         </p>
         {/* <p className="mt-4 text-lg tracking-tight text-slate-700">
           some more explaining text tbd

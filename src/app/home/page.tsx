@@ -4,7 +4,7 @@ import { Hero } from '@/components/Hero'
 import { Hint } from '@/components/Hint'
 import { NavBar } from '@/components/NavBar'
 import { Vitae } from '@/components/Vitae'
-import { Introduction } from '@/components/Introduction'
+import { Competence } from '@/components/Competence'
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <Hint />
       <NavBar />
-      <Introduction />
+      <Competence />
       <Vitae />
       <Contact />
       <Footer />
