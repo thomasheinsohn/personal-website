@@ -114,11 +114,11 @@ export function Vitae() {
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Overview of practical experience and academic experience
         </p>
-        {/* <p className="mt-4 text-lg tracking-tight text-slate-700">
+        <p className="mt-4 text-lg tracking-tight text-slate-700">
           Design assets, icon teardowns, and a community of fellow icon
           designers where you can ask questions, get feedback, and accelerate
           your learning.
-        </p> */}
+        </p>
       </Container>
       <Container size="lg" className="mt-16">
         <ol

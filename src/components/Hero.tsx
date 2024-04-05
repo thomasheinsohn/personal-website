@@ -35,12 +35,9 @@ export function Hero() {
                 Welcome to my personal website, a digital gateway to my
                 professional journey. Here, you will find an interactive
                 showcase of my skills, experiences, and achievements that have
-                shaped my career.
-              </p>
-              <p className="mt-4 text-3xl text-slate-600">
-                This platform serves as an extensive CV, providing a deeper
-                insight into my qualifications and the unique value I bring to
-                the workplace.
+                shaped my career. This platform serves as an extensive CV,
+                providing a deeper insight into my qualifications and the unique
+                value I bring to the workplace.
               </p>
               <div className="mt-8 flex gap-4">
                 <Button href="#vitae" color="blue">
