@@ -1,5 +1,6 @@
 'use client'
 import { useState, FormEvent } from 'react'
+import { useRouter } from 'next/navigation'
 import { Container } from '@/components/Container'
 import { GridPattern } from '@/components/GridPattern'
 import bcrypt from 'bcryptjs'
@@ -7,6 +8,8 @@ import bcrypt from 'bcryptjs'
 export default function Login() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
+  const [loginSuccess, setLoginSuccess] = useState(false)
+  const router = useRouter()
 
   const correctHash =
     '$2a$10$BU6iBDlMUnKORfRZMEYvuePI/nbHLh7QGRtmuUaJicCy0c6pa4ne2'
@@ -23,10 +26,15 @@ export default function Login() {
       if (bcrypt.compareSync(password, correctHash)) {
         console.log('Login successful')
         setError('')
+        setLoginSuccess(true)
       } else {
         setError('Incorrect password. Please try again.')
       }
     })
+  }
+
+  if (loginSuccess) {
+    router.push('/home')
   }
 
   return (
@@ -38,6 +46,7 @@ export default function Login() {
         <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
           Login
         </h1>
+
         <form onSubmit={handleSubmit} className="mt-4">
           <input
             type="password"
@@ -46,6 +55,7 @@ export default function Login() {
             placeholder="Enter password"
             className="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
           />
+
           <button
             type="submit"
             className="mt-6 text-base font-medium text-blue-600 hover:text-blue-800"
