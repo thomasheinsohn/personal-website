@@ -49,9 +49,10 @@ export function Button<
 
   className = clsx(
     baseStyles[variant],
-    variantStyles[variant][color],
+    variantStyles[variant][color] + '',
     className,
   )
+  // make schick
 
   return typeof props.href === 'undefined' ? (
     <button className={className} {...props} />
