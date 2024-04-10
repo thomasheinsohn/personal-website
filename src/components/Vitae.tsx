@@ -2,8 +2,6 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import abstractBackgroundImage from '@/images/resources/background.png'
-import universityHatImage from '@/images/resources/uni-hat.svg'
 import { GridPattern } from './GridPattern'
 import { BriefcaseBusiness, GraduationCap, PlaneTakeoff } from 'lucide-react'
 
