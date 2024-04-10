@@ -14,7 +14,7 @@ const resources = [
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-blue-600 text-white/10">
           <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
-          <GraduationCap className="size-36 text-black" strokeWidth={1} />
+          <GraduationCap className="size-32 text-black" strokeWidth={1} />
         </div>
       )
     },
@@ -27,7 +27,7 @@ const resources = [
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-blue-600 text-white/10">
           <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
-          <GraduationCap className="size-36 text-black" strokeWidth={1} />
+          <GraduationCap className="size-32 text-black" strokeWidth={1} />
         </div>
       )
     },
@@ -40,7 +40,7 @@ const resources = [
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-blue-500 text-white/10">
           <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
-          <PlaneTakeoff className="size-32 text-black" strokeWidth={1} />
+          <PlaneTakeoff className="size-24 text-black" strokeWidth={1} />
         </div>
       )
     },
@@ -53,31 +53,31 @@ const resources = [
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-blue-500 text-white/10">
           <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
-          <PlaneTakeoff className="size-32 text-black" strokeWidth={1} />
+          <PlaneTakeoff className="size-24 text-black" strokeWidth={1} />
         </div>
       )
     },
   },
   {
     title: 'Work',
-    description: 'Work ...',
+    description: 'Information will follow ...',
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-blue-400 text-white/10">
           <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
-          <BriefcaseBusiness className="size-32 text-black" strokeWidth={1} />
+          <BriefcaseBusiness className="size-24 text-black" strokeWidth={1} />
         </div>
       )
     },
   },
   {
-    title: 'Work',
-    description: 'Work ...',
+    title: 'Work 2',
+    description: 'Information will follow ...',
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-blue-400 text-white/10">
           <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
-          <BriefcaseBusiness className="size-32 text-black" strokeWidth={1} />
+          <BriefcaseBusiness className="size-24 text-black" strokeWidth={1} />
         </div>
       )
     },
@@ -89,7 +89,7 @@ export function Vitae() {
     <section
       id="vitae"
       aria-labelledby="resources-title"
-      className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
+      className="scroll-mt-14 py-14 sm:scroll-mt-24 sm:py-14 lg:py-14"
     >
       <Container>
         <SectionHeading number="2" id="resources-title">
@@ -108,14 +108,13 @@ export function Vitae() {
         <ol
           role="list"
           className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-2 lg:text-center xl:-mx-12"
-          // className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-2 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20"
         >
           {resources.map((resource) => (
             <li
               key={resource.title}
               className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12"
             >
-              <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg sm:h-60 lg:h-40">
+              <div className="relative h-28 overflow-hidden rounded-2xl shadow-lg sm:h-28 lg:h-28">
                 <resource.image />
               </div>
               <div>

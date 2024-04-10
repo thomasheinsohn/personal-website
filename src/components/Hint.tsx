@@ -5,7 +5,7 @@ export function Hint() {
     <section
       id="hint"
       aria-label="hint"
-      className="pb-16 pt-20 sm:pb-20 md:pt-20 lg:py-14"
+      className="pb-8 pt-10 sm:pb-10 md:pt-10 lg:py-8"
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
