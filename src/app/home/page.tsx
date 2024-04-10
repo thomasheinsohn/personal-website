@@ -5,7 +5,7 @@ import { Hint } from '@/components/Hint'
 import { NavBar } from '@/components/NavBar'
 import { Vitae } from '@/components/Vitae'
 import { Competence } from '@/components/Competence'
-import { getSession, checkSession, logout } from '../../../lib'
+import { checkSession, logout } from '../../../lib'
 import { redirect } from 'next/navigation'
 
 export default async function Home() {
