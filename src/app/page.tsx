@@ -1,4 +1,4 @@
-import { login, logout } from '../../lib'
+import { login } from '../../lib'
 import { GridPattern } from '@/components/GridPattern'
 import { Container } from '@/components/Container'
 import { Wrench } from 'lucide-react'

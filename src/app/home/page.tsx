@@ -6,7 +6,6 @@ import { NavBar } from '@/components/NavBar'
 import { Vitae } from '@/components/Vitae'
 import { Competence } from '@/components/Competence'
 import { checkSession, logout } from '../../../lib'
-import { redirect } from 'next/navigation'
 
 export default async function Home() {
   await checkSession()

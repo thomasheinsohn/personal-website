@@ -4,6 +4,8 @@ import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
 import abstractBackgroundImage from '@/images/resources/background.png'
 import universityHatImage from '@/images/resources/uni-hat.svg'
+import { GridPattern } from './GridPattern'
+import { BriefcaseBusiness, GraduationCap, PlaneTakeoff } from 'lucide-react'
 
 const resources = [
   {
@@ -12,19 +14,9 @@ const resources = [
       'Applied Computer Science / Software Engineering from Nordakademie Graduate School, Hamburg (October 2020 - Present)',
     image: function FigmaImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={universityHatImage}
-            alt=""
-            unoptimized
-          />
+        <div className="absolute inset-0 flex items-center justify-center bg-blue-600 text-white/10">
+          <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
+          <GraduationCap className="size-36 text-black" strokeWidth={1} />
         </div>
       )
     },
@@ -35,69 +27,51 @@ const resources = [
       'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
     image: function VideoPlayerImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={universityHatImage}
-            alt=""
-            unoptimized
-          />
+        <div className="absolute inset-0 flex items-center justify-center bg-blue-600 text-white/10">
+          <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
+          <GraduationCap className="size-36 text-black" strokeWidth={1} />
         </div>
       )
     },
   },
   {
-    title: 'Visit to China (October 2024)',
+    title: 'Educational Trip to China (October 2024)',
     description:
       'Educational trip with the university for two weeks of visiting companies and culture.',
     image: function VideoPlayerImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={universityHatImage}
-            alt=""
-            unoptimized
-          />
+        <div className="absolute inset-0 flex items-center justify-center bg-blue-500 text-white/10">
+          <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
+          <PlaneTakeoff className="size-32 text-black" strokeWidth={1} />
         </div>
       )
     },
   },
   {
-    title: 'Visit to India (March 2023)',
+    title: 'Educational Trip to India (March 2023)',
     description:
       'Educational trip with the university for three weeks of visiting companies and culture.',
     image: function VideoPlayerImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={universityHatImage}
-            alt=""
-            unoptimized
-          />
+        <div className="absolute inset-0 flex items-center justify-center bg-blue-500 text-white/10">
+          <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
+          <PlaneTakeoff className="size-32 text-black" strokeWidth={1} />
         </div>
       )
     },
   },
+  // {
+  //   title: 'Work',
+  //   description: 'Work ...',
+  //   image: function VideoPlayerImage() {
+  //     return (
+  //       <div className="absolute inset-0 flex items-center justify-center bg-blue-400 text-white/10">
+  //         <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
+  //         <BriefcaseBusiness className="size-32 text-black" strokeWidth={1} />
+  //       </div>
+  //     )
+  //   },
+  // },
 ]
 
 export function Vitae() {
@@ -149,7 +123,4 @@ export function Vitae() {
     </section>
   )
 }
-// M.Sc. Nordakademie Graduate School, Angewandte Informatik / Software Engineering, Hamburg (from 10/20 to today)
-// B.Sc. Universität Potsdam, Wirtschaftsinformatik, Potsdam (10/16 bis 10/20)
-// overview of the trips i made?
 // list of the companies I worked in? and my current positions
