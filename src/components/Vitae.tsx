@@ -58,18 +58,30 @@ const resources = [
       )
     },
   },
-  // {
-  //   title: 'Work',
-  //   description: 'Work ...',
-  //   image: function VideoPlayerImage() {
-  //     return (
-  //       <div className="absolute inset-0 flex items-center justify-center bg-blue-400 text-white/10">
-  //         <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
-  //         <BriefcaseBusiness className="size-32 text-black" strokeWidth={1} />
-  //       </div>
-  //     )
-  //   },
-  // },
+  {
+    title: 'Work',
+    description: 'Work ...',
+    image: function VideoPlayerImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center bg-blue-400 text-white/10">
+          <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
+          <BriefcaseBusiness className="size-32 text-black" strokeWidth={1} />
+        </div>
+      )
+    },
+  },
+  {
+    title: 'Work',
+    description: 'Work ...',
+    image: function VideoPlayerImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center bg-blue-400 text-white/10">
+          <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
+          <BriefcaseBusiness className="size-32 text-black" strokeWidth={1} />
+        </div>
+      )
+    },
+  },
 ]
 
 export function Vitae() {

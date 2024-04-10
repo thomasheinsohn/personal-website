@@ -50,7 +50,7 @@ export function Competence() {
           some more explaining text tbd
         </p> */}
         <Expandable>
-          <ol role="list" className="mt-16 space-y-10 sm:space-y-16">
+          <ol role="list" className="mt-12 space-y-8 sm:space-y-12">
             <ExpandableItems>
               {Object.entries(tableOfContents).map(([title, pages]) => (
                 <li key={title}>
@@ -59,7 +59,7 @@ export function Competence() {
                   </h3>
                   <ol
                     role="list"
-                    className="mt-8 divide-y divide-slate-300/30 rounded-2xl bg-slate-50 px-6 py-3 text-base tracking-tight sm:px-8 sm:py-7"
+                    className="mt-4 divide-y divide-slate-300/30 rounded-2xl bg-slate-50 px-6 py-3 text-base tracking-tight sm:px-8 sm:py-4"
                   >
                     {Object.entries(pages).map(([title, pageNumber]) => (
                       <li
