@@ -14,12 +14,12 @@ export default async function Home() {
   return (
     <>
       <Hero />
-      {/* <Hint /> */}
-      {/* <NavBar /> */}
-      {/* <Competence /> */}
-      {/* <Vitae /> */}
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Hint />
+      <NavBar />
+      <Competence />
+      <Vitae />
+      <Contact />
+      <Footer />
     </>
   )
 }
