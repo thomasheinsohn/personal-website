@@ -17,15 +17,17 @@ export default async function Page() {
   }
 
   return (
-    <div className="relative flex flex-auto items-center">
+    <div className="relative flex h-screen flex-auto flex-col items-center justify-center">
       <div className="absolute inset-0 -z-10 text-slate-900/10 [mask-image:linear-gradient(transparent,white,transparent)]">
         <GridPattern x="50%" y="50%" patternTransform="translate(0 60)" />
       </div>
-      <Container className="flex flex-col items-center py-16 text-center sm:py-20 lg:py-32">
-        <h1 className="mb-7 flex items-center justify-center gap-2 font-display text-3xl font-extrabold text-slate-900 sm:text-3xl">
+      <div className="absolute top-0 mx-auto flex flex-wrap items-center justify-center gap-2">
+        <h1 className="text-center font-display text-3xl font-extrabold text-slate-900 sm:text-3xl">
           This website is currently under construction
-          <Wrench />
         </h1>
+        <Wrench />
+      </div>
+      <Container className="flex flex-col items-center py-16 text-center sm:py-20 lg:py-32">
         <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
           Login
         </h1>
