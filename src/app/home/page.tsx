@@ -13,26 +13,13 @@ export default async function Home() {
 
   return (
     <>
-      <div>
-        <form
-          action={async () => {
-            'use server'
-            await logout()
-            redirect('/')
-          }}
-        >
-          <button type="submit" className="m-6">
-            Logout
-          </button>
-        </form>
-      </div>
       <Hero />
-      <Hint />
-      <NavBar />
-      <Competence />
-      <Vitae />
-      <Contact />
-      <Footer />
+      {/* <Hint /> */}
+      {/* <NavBar /> */}
+      {/* <Competence /> */}
+      {/* <Vitae /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </>
   )
 }

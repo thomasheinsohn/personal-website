@@ -1,7 +1,7 @@
-import { redirect } from 'next/navigation'
 import { login, logout } from '../../lib'
 import { GridPattern } from '@/components/GridPattern'
 import { Container } from '@/components/Container'
+import { Wrench } from 'lucide-react'
 
 export default async function Page() {
   async function createForm(formData: FormData) {
@@ -22,8 +22,9 @@ export default async function Page() {
         <GridPattern x="50%" y="50%" patternTransform="translate(0 60)" />
       </div>
       <Container className="flex flex-col items-center py-16 text-center sm:py-20 lg:py-32">
-        <h1 className="mb-7 font-display text-3xl font-extrabold text-slate-900 sm:text-3xl">
-          This website is currently under construction ...
+        <h1 className="mb-7 flex items-center justify-center gap-2 font-display text-3xl font-extrabold text-slate-900 sm:text-3xl">
+          This website is currently under construction
+          <Wrench />
         </h1>
         <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
           Login
@@ -39,7 +40,7 @@ export default async function Page() {
             <br />
             <button
               type="submit"
-              className="mt-6 text-base font-medium text-blue-600 hover:text-blue-800"
+              className="mt-3 text-base font-medium text-blue-600 hover:text-blue-800"
             >
               Login <span aria-hidden="true">&rarr;</span>
             </button>
