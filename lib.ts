@@ -9,7 +9,7 @@ const secretKey = 'secret'
 const key = new TextEncoder().encode(secretKey)
 
 const correctHash =
-  '$2a$10$BU6iBDlMUnKORfRZMEYvuePI/nbHLh7QGRtmuUaJicCy0c6pa4ne2'
+  '$2a$10$jYn/bVmWrfbhj39ImlP7hO9WuCAioGnENnho6PCxidILusFg7/EHe'
 
 export async function passwordHash(password: string) {
   if (bcrypt.compareSync(password, correctHash)) {
