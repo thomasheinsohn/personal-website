@@ -31,8 +31,8 @@ export function Contact() {
               Contact
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Thomas Heinsohn</span>
-              text here
+              <span className="block text-blue-600"></span>
+              Thomas Heinsohn
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
               Software Developer and Consultant
