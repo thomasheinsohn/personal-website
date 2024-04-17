@@ -1,19 +1,5 @@
 import { GridPattern } from '@/components/GridPattern'
 
-export function Footeer() {
-  return (
-    <footer className="relative pb-20 pt-5 sm:pb-32 sm:pt-14">
-      <div className="absolute inset-x-0 top-0 h-32 text-slate-900/10 [mask-image:linear-gradient(white,transparent)]">
-        <GridPattern x="50%" />
-      </div>
-      <div className="relative text-center text-sm text-slate-600">
-        <p>Copyright &copy; {new Date().getFullYear()}</p>
-        <p>All rights reserved.</p>
-      </div>
-    </footer>
-  )
-}
-
 const navigation = {
   main: [
     { name: 'Impressum', href: '#' },
@@ -86,8 +72,11 @@ const navigation = {
 
 export function Footer() {
   return (
-    <footer className="bg-white">
-      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+    <footer className="relative pb-20 pt-5 sm:pb-32 sm:pt-14">
+      <div className="absolute inset-x-0 top-0 h-32 text-slate-900/10 [mask-image:linear-gradient(white,transparent)]">
+        <GridPattern x="50%" />
+      </div>
+      <div className="relative text-center text-slate-600">
         <nav
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
@@ -103,7 +92,7 @@ export function Footer() {
             </div>
           ))}
         </nav>
-        <div className="mt-10 flex justify-center space-x-10">
+        {/* <div className="mt-10 flex justify-center space-x-10">
           {navigation.social.map((item) => (
             <a
               key={item.name}
@@ -114,11 +103,9 @@ export function Footer() {
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
-        </div>
+        </div> */}
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          <p>
-            Copyright &copy; {new Date().getFullYear()} All rights reserved.
-          </p>
+          Copyright &copy; {new Date().getFullYear()}. All rights reserved.
         </p>
       </div>
     </footer>
