@@ -21,6 +21,7 @@ const tableOfContents = {
     Docker: 4,
     Jenkins: 3,
     'ELK-Stack (Elasticsearch + Logstash + Kibana)': 3,
+    OpenShift: 1,
   },
   Management: {
     Scrum: 4,
