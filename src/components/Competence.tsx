@@ -19,6 +19,7 @@ const tableOfContents = {
   },
   DevOps: {
     Docker: 4,
+    Kubernetes: 3,
     Jenkins: 3,
     'ELK-Stack (Elasticsearch + Logstash + Kibana)': 3,
     OpenShift: 1,
