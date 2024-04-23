@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
 import logoImage from '@/images/logo2.png'
-import { Github, Linkedin } from 'lucide-react'
+import { Github, Linkedin, Mail } from 'lucide-react'
 
 export function Contact() {
   return (
@@ -35,7 +35,16 @@ export function Contact() {
               Thomas Heinsohn
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              Software Developer and Consultant
+              Software Engineer and Consultant
+            </p>
+            <p className="mt-6">
+              <Link
+                href="mailto:contact@thomasheinsohn.com"
+                className="inline-flex items-center text-base font-medium tracking-tight text-blue-950"
+              >
+                <Mail />
+                <span className="ml-4">Contact via Mail</span>
+              </Link>
             </p>
             <p className="mt-6">
               <Link

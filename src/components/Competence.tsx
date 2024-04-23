@@ -10,8 +10,10 @@ const tableOfContents = {
   Backend: {
     'Java + Kotlin': 4,
     Spring: 4,
+    'Microservices + Monoliths': 4,
     'RESTful Web-Services': 4,
     'SQL + NoSQL': 4,
+    Python: 3,
   },
   Frontend: {
     'React + NextJS': 3,

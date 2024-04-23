@@ -35,7 +35,7 @@ export function Pattern({
         </symbol>
         <symbol id={`${id}-1`} width={size} height={size}>
           <circle
-            className="fill-blue-300"
+            className="fill-blue-700"
             cx={size / 2}
             cy={size / 2}
             r={size / 2}
