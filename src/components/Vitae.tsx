@@ -43,15 +43,18 @@ const resources = [
   },
   {
     title: 'Private Frontend Project',
-    description:
-      'Educational trip with the university for three weeks of visiting companies and culture.',
-    subdescription: 'text',
+    description: 'Private Project',
+    subdescription: `Developed website ${'www.google.com'}`,
   },
 ]
 
 export function Vitae() {
   return (
-    <section id="vitae" aria-labelledby="resources-title" className="mt-8 py-8">
+    <section
+      id="vitae"
+      aria-labelledby="resources-title"
+      className="mt-4 scroll-mt-14 py-8 sm:scroll-mt-24 sm:py-14 lg:py-14"
+    >
       <Container>
         <SectionHeading number="2" id="resources-title">
           Curriculum Vitae
@@ -76,7 +79,7 @@ export function Vitae() {
               className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:gap-y-10 xl:px-12"
             >
               <div>
-                <h3 className="text-lg font-bold tracking-tight text-slate-900">
+                <h3 className="text-lg font-bold tracking-tight text-blue-950">
                   {resource.title}
                 </h3>
                 <p className="mt-1 text-base text-slate-600">

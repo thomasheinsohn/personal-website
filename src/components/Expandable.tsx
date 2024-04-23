@@ -41,7 +41,7 @@ export function Expandable(props: React.ComponentPropsWithoutRef<'div'>) {
 
 export function ExpandableItems({
   children,
-  limit = 2,
+  limit = 3,
 }: {
   children: React.ReactNode
   limit?: number

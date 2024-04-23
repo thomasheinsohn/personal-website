@@ -15,16 +15,16 @@ const tableOfContents = {
     'SQL + NoSQL': 4,
     Python: 3,
   },
-  Frontend: {
-    'React + NextJS': 3,
-    'JavaScript + TypeScript': 3,
-  },
   DevOps: {
     Docker: 4,
     Kubernetes: 3,
     Jenkins: 3,
     'ELK-Stack (Elasticsearch + Logstash + Kibana)': 3,
     OpenShift: 1,
+  },
+  Frontend: {
+    'React + NextJS': 3,
+    'JavaScript + TypeScript': 3,
   },
   Management: {
     Scrum: 4,
@@ -41,7 +41,7 @@ export function Competence() {
     <section
       id="competence"
       aria-labelledby="table-of-contents-title"
-      className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-12 lg:py-16"
+      className="scroll-mt-14 py-16 sm:scroll-mt-24 sm:py-12 lg:py-16"
     >
       <Container>
         <SectionHeading number="1" id="table-of-contents-title">
@@ -50,15 +50,12 @@ export function Competence() {
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Overview of the competences
         </p>
-        {/* <p className="mt-4 text-lg tracking-tight text-slate-700">
-          some more explaining text tbd
-        </p> */}
         <Expandable>
           <ol role="list" className="mt-12 space-y-8 sm:space-y-12">
             <ExpandableItems>
               {Object.entries(tableOfContents).map(([title, pages]) => (
                 <li key={title}>
-                  <h3 className="font-display text-3xl font-bold tracking-tight text-slate-900">
+                  <h3 className="font-display text-3xl font-bold tracking-tight text-blue-950">
                     {title}
                   </h3>
                   <ol

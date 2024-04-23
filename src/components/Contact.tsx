@@ -30,42 +30,45 @@ export function Contact() {
             <SectionHeading number="3" id="author-title">
               Contact
             </SectionHeading>
-            <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+            <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-blue-950 sm:text-6xl">
               <span className="block text-blue-950"></span>
               Thomas Heinsohn
             </p>
-            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            <p className="ml-1 mt-4 text-lg tracking-tight text-slate-700">
               Software Engineer and Consultant
             </p>
-            <p className="mt-6">
-              <Link
-                href="mailto:contact@thomasheinsohn.com"
-                className="inline-flex items-center text-base font-medium tracking-tight text-blue-950"
-              >
-                <Mail />
-                <span className="ml-4">Contact via Mail</span>
-              </Link>
-            </p>
-            <p className="mt-6">
-              <Link
-                target="_blank"
-                href="https://www.linkedin.com/in/thomas-heinsohn-9873aa1a0/"
-                className="inline-flex items-center text-base font-medium tracking-tight text-blue-950"
-              >
-                <Linkedin />
-                <span className="ml-4">Contact via LinkedIn</span>
-              </Link>
-            </p>
-            <p className="mt-6">
-              <Link
-                target="_blank"
-                href="https://github.com/thomasheinsohn"
-                className="inline-flex items-center text-base font-medium tracking-tight text-blue-950"
-              >
-                <Github />
-                <span className="ml-4">Visit GitHub</span>
-              </Link>
-            </p>
+            <div className="ml-1 mt-4">
+              <p>
+                <Link
+                  target="_blank"
+                  href="https://github.com/thomasheinsohn"
+                  className="inline-flex items-center text-base font-medium tracking-tight text-blue-950"
+                >
+                  <Github />
+                  <span className="ml-3">Visit GitHub</span>
+                </Link>
+              </p>
+              <p className="mt-3">
+                <Link
+                  target="_blank"
+                  href="https://www.linkedin.com/in/thomas-heinsohn-9873aa1a0/"
+                  className="inline-flex items-center text-base font-medium tracking-tight text-blue-950"
+                >
+                  <Linkedin />
+                  <span className="ml-3">Contact via LinkedIn</span>
+                </Link>
+              </p>
+
+              <p className="mt-3">
+                <Link
+                  href="mailto:contact@thomasheinsohn.com"
+                  className="inline-flex items-center text-base font-medium tracking-tight text-blue-950"
+                >
+                  <Mail />
+                  <span className="ml-3">Contact via Mail</span>
+                </Link>
+              </p>
+            </div>
           </div>
         </div>
       </div>
