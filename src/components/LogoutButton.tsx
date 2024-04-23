@@ -13,7 +13,7 @@ export function LogoutButton() {
       >
         <button
           type="submit"
-          className="mt-3 text-base font-medium text-blue-600 hover:text-blue-800"
+          className="mt-3 text-base font-medium text-blue-600 hover:text-blue-950"
         >
           Logout
         </button>
