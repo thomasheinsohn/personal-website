@@ -31,7 +31,7 @@ export function Contact() {
               Contact
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600"></span>
+              <span className="block text-blue-950"></span>
               Thomas Heinsohn
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
@@ -41,7 +41,7 @@ export function Contact() {
               <Link
                 target="_blank"
                 href="https://www.linkedin.com/in/thomas-heinsohn-9873aa1a0/"
-                className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
+                className="inline-flex items-center text-base font-medium tracking-tight text-blue-950"
               >
                 <Linkedin />
                 <span className="ml-4">Contact via LinkedIn</span>
@@ -51,7 +51,7 @@ export function Contact() {
               <Link
                 target="_blank"
                 href="https://github.com/thomasheinsohn"
-                className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
+                className="inline-flex items-center text-base font-medium tracking-tight text-blue-950"
               >
                 <Github />
                 <span className="ml-4">Visit GitHub</span>

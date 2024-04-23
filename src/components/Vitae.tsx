@@ -12,7 +12,7 @@ const resources = [
       'Applied Computer Science / Software Engineering from Nordakademie Graduate School, Hamburg (October 2020 - Present)',
     image: function FigmaImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-blue-600 text-white/10">
+        <div className="absolute inset-0 flex items-center justify-center bg-blue-950 text-white/10">
           <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
           <GraduationCap className="size-32 text-black" strokeWidth={1} />
         </div>
@@ -25,7 +25,7 @@ const resources = [
       'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
     image: function VideoPlayerImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-blue-600 text-white/10">
+        <div className="absolute inset-0 flex items-center justify-center bg-blue-950 text-white/10">
           <GridPattern x="100%" y="100%" patternTransform="translate(112 64)" />
           <GraduationCap className="size-32 text-black" strokeWidth={1} />
         </div>

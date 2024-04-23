@@ -39,7 +39,7 @@ export default async function Page() {
             <br />
             <button
               type="submit"
-              className="mt-3 text-base font-medium text-blue-600 hover:text-blue-950"
+              className="mt-3 text-base font-medium text-blue-950 hover:text-blue-950"
             >
               Login
               <span aria-hidden="true">&rarr;</span>
