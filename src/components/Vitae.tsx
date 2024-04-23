@@ -4,41 +4,38 @@ import { SectionHeading } from '@/components/SectionHeading'
 const resources = [
   {
     title: 'Master of Science (M.Sc.)',
-    description: 'Nordakademie University of Business',
+    description: 'Nordakademie University of Business, Hamburg (2020 - 2024)',
     subdescription:
-      'Dual Applied Computer Science / Software Engineering from Nordakademie Graduate School, Hamburg (October 2020 - Present)',
+      'Dual Applied Computer Science / Software Engineering from Nordakademie Graduate School',
   },
   {
     title: 'Bachelor of Science (B.Sc.)',
-    description: 'University of Potsdam',
-    subdescription:
-      'Business Informatics from the University of Potsdam, Potsdam (October 2016 - October 2020)',
+    description: 'University of Potsdam, Potsdam (2016 - 2020)',
+    subdescription: 'Business Informatics from the University of Potsdam',
   },
   {
     title: 'Lead Software Developer (Title: Lead Consultant)',
-    description: 'CGI Deutschland B.V. & Co. KG',
+    description: 'CGI Deutschland B.V. & Co. KG, Berlin (since 2024)',
     subdescription: 'text',
   },
   {
     title: 'Software Developer (Title: Consultant)',
-    description: 'CGI Deutschland B.V. & Co. KG',
+    description: 'CGI Deutschland B.V. & Co. KG, Berlin (2020 - 2024)',
     subdescription: 'text',
   },
   {
     title: 'Working Student (Title: Inhouse IT-Consulant)',
-    description: 'proAlpha Business Solutions GmbH',
+    description: 'proAlpha Business Solutions GmbH, Berlin (2020)',
     subdescription: 'text',
   },
   {
-    title: 'Educational Trip to China (October 2024)',
-    description:
-      'Educational trip with the university for two weeks of visiting companies and culture.',
+    title: 'Planned Educational Trip to China (2024)',
+    description: 'China (2024)',
     subdescription: 'text',
   },
   {
-    title: 'Educational Trip to India (March 2023)',
-    description:
-      'Educational trip with the university for three weeks of visiting companies and culture.',
+    title: 'Educational Trip to India',
+    description: 'India (2023)',
     subdescription: 'text',
   },
   {
@@ -76,7 +73,7 @@ export function Vitae() {
           {resources.map((resource) => (
             <li
               key={resource.title}
-              className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:gap-y-10 xl:px-12"
+              className="grid auto-rows-min grid-cols-1 items-center gap-10 px-3 sm:gap-y-12 xl:px-14"
             >
               <div>
                 <h3 className="text-lg font-bold tracking-tight text-blue-950">
