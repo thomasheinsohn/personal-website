@@ -35,8 +35,8 @@ export function Hero() {
                 professional journey. Here, you will find an interactive
                 showcase of my skills, experiences, and achievements that have
                 shaped my career. This platform serves as an extensive CV,
-                providing a deeper insight into my qualifications and the unique
-                value I bring to the workplace.
+                providing a deeper insight into my qualifications and the value
+                I bring to the workplace.
               </p>
               <div className="mt-8 flex gap-4">
                 <Button href="#vitae" color="blue">

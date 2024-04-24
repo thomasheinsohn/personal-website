@@ -20,7 +20,7 @@ const tableOfContents = {
     Kubernetes: 3,
     Jenkins: 3,
     'ELK-Stack (Elasticsearch + Logstash + Kibana)': 3,
-    OpenShift: 1,
+    OpenShift: 3,
   },
   Frontend: {
     'React + NextJS': 3,
@@ -32,7 +32,7 @@ const tableOfContents = {
   },
   Languages: {
     German: 4,
-    English: 4,
+    English: 3,
   },
 }
 

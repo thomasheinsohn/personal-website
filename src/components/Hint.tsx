@@ -9,8 +9,8 @@ export function Hint() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Software Engineer living in Berlin currently working in a IT service
-          provider company ...
+          I am a Software Engineer based in Berlin, currently working with an IT
+          service provider.
         </p>
       </Container>
     </section>
