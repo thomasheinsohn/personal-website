@@ -10,9 +10,9 @@ const tableOfContents = {
   Backend: {
     'Java + Kotlin': 4,
     Spring: 4,
-    'Microservices + Monoliths': 4,
     'RESTful Web-Services': 4,
-    'SQL + NoSQL': 4,
+    'Microservices + Monoliths': 3,
+    'SQL + NoSQL': 3,
     Python: 3,
   },
   DevOps: {

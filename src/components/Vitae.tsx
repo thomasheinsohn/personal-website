@@ -11,7 +11,7 @@ const resources = [
       'Specialization in Software Engineering with focused on the selection and design of complex software architectures',
       'Relevant Coursework: Requirements Engineering, Complex Software Architectures, Operation of Software Systems, Secure and Reliable Systems, System Modeling, Distributed Systems, Data Analytics, and IT Law',
       'Master’s Thesis (Written in English): Fine-tuned and deployed an open-source large language model (Llama2) in a production environment, and comparing it to ChatGPT',
-      'Achieved a final grade of 2.0',
+      // 'Achieved a final grade of 2.0',
     ],
   },
   {
@@ -49,18 +49,18 @@ const resources = [
     ],
   },
   {
-    title: 'Planned Educational Trip to China (2024)',
-    description: 'China (2024)',
-    subdescription: ['14 days of Academic Program and Cultural Exposure'],
-  },
-  {
     title: 'Developing the online presence of a sports psychologist',
     description: 'Private Project',
     subdescription: [
       'Developed a website with React, NextJS, TypeScript considering SEO, Google Ranking and GMaps',
       'Managed hosting, domain registration, and continuous deployment using GitHub Actions, NameCheap and Vercel',
-      'Visit the website at https://movementpsychology.de',
+      // 'Visit the website at https://movementpsychology.de',
     ],
+  },
+  {
+    title: 'Planned Educational Trip to China (2024)',
+    description: 'China (2024)',
+    subdescription: ['14 days of Academic Program and Cultural Exposure'],
   },
   {
     title: 'Educational Trip to India',
