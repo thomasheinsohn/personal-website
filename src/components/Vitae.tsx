@@ -3,6 +3,24 @@ import { SectionHeading } from '@/components/SectionHeading'
 
 const resources = [
   {
+    title: 'Lead Software Developer (Title: Lead Consultant)',
+    description: 'CGI Deutschland B.V. & Co. KG, Berlin (since 2024)',
+    subdescription: [
+      'Engineer and develop backend applications utilizing Java, Kotlin, Spring, and SQL',
+      'Development of new microservices and the splitting of a monolith into microservices',
+      'Deployment pipelines with Jenkins, Docker, Kubernetes and partly use of OpenShift',
+      'Agile development team (Scrum) in a project with client from telecommunications industry',
+    ],
+  },
+  {
+    title: 'Software Developer (Title: Consultant)',
+    description: 'CGI Deutschland B.V. & Co. KG, Berlin (2020 - 2024)',
+    subdescription: [
+      'Java backend developer building microservices in an agile environment',
+      'Dual Master’s Program in cooperation with Nordakademie University',
+    ],
+  },
+  {
     title:
       'Master of Science (M.Sc.) Applied Computer Science / Software Engineering',
     description: 'Nordakademie University of Business, Hamburg (2020 - 2024)',
@@ -20,24 +38,6 @@ const resources = [
     subdescription: [
       'Relevant Coursework: Programming, Software Engineering, Databases & Information Systems, Business Administration, Accounting, Statistics, and Mathematics',
       'Bachelor’s Thesis: Creating a Return on Investment Analysis for Industry 4.0',
-    ],
-  },
-  {
-    title: 'Lead Software Developer (Title: Lead Consultant)',
-    description: 'CGI Deutschland B.V. & Co. KG, Berlin (since 2024)',
-    subdescription: [
-      'Development of new microservices and the splitting of a monolith into microservices',
-      'Deployment pipelines with Jenkins, Docker, Kubernetes and partly use of OpenShift',
-      'Agile development team (Scrum) in a project with client from telecommunications industry',
-      'Engineer and develop backend applications utilizing Java, Kotlin, Spring, and SQL',
-    ],
-  },
-  {
-    title: 'Software Developer (Title: Consultant)',
-    description: 'CGI Deutschland B.V. & Co. KG, Berlin (2020 - 2024)',
-    subdescription: [
-      'Java backend developer building microservices in an agile environment',
-      'Dual Master’s Program in cooperation with Nordakademie University',
     ],
   },
   {
