@@ -89,10 +89,10 @@ export function Competence() {
           </ol>
           <ExpandableButton>See more</ExpandableButton>
           <ol className=" mt-8 flex w-full flex-row items-center justify-end space-x-4">
-            <li className="font-small text-base">1 - Low</li>
-            <li className="font-small text-base">2 - Middle</li>
-            <li className="font-small text-base">3 - High</li>
-            <li className="font-small text-base">4 - Very High</li>
+            <li className="font-small text-base">1-Low</li>
+            <li className="font-small text-base">2-Middle</li>
+            <li className="font-small text-base">3-High</li>
+            <li className="font-small text-base">4-Very High</li>
           </ol>
         </Expandable>
       </Container>
