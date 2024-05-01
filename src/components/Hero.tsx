@@ -9,7 +9,7 @@ export function Hero() {
     <div>
       <header className="overflow-hidden bg-slate-100 lg:bg-transparent lg:px-5">
         <div className="absolute right-0 top-0 px-5">
-          <LogoutButton />
+          {/* <LogoutButton /> */}
         </div>
         <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 pt-16 md:pt-20 lg:grid-cols-12 lg:gap-y-20 lg:px-3 lg:pb-36 lg:pt-20 xl:py-32">
           <div className="relative flex items-end lg:col-span-5 lg:row-span-2">
