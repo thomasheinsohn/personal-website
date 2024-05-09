@@ -48,15 +48,15 @@ const resources = [
       'Supported the goLive team in daily operations, and managed the migration, verification, and documentation of project data',
     ],
   },
-  {
-    title: 'Developing the online presence of a sports psychologist',
-    description: 'Private Project',
-    subdescription: [
-      'Developed a website with React, NextJS, TypeScript considering SEO, Google Ranking and GMaps',
-      'Managed hosting, domain registration, and continuous deployment using GitHub Actions, NameCheap and Vercel',
-      // 'Visit the website at https://movementpsychology.de',
-    ],
-  },
+  // {
+  //   title: 'Developing the online presence of a sports psychologist',
+  //   description: 'Private Project',
+  //   subdescription: [
+  //     'Developed a website with React, NextJS, TypeScript considering SEO, Google Ranking and GMaps',
+  //     'Managed hosting, domain registration, and continuous deployment using GitHub Actions, NameCheap and Vercel',
+  //     // 'Visit the website at https://movementpsychology.de',
+  //   ],
+  // },
   {
     title: 'Planned Educational Trip to China (2024)',
     description: 'China (2024)',
