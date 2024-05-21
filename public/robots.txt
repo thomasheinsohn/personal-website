@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://www.thomasheinsohn.com
-
-# Sitemaps
-Sitemap: https://www.thomasheinsohn.com/sitemap.xml
