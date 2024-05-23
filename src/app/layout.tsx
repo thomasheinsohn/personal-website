@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title:
     'Thomas Heinsohn Software Engineer | Developer Expert in Java, Kotlin & Microservices Berlin',
   description:
-    'Experienced Lead Software Developer in Berlin, specializing in backend technologies including Java, Kotlin, and Spring. Proficient in developing robust microservices, enhancing legacy monolith applications, and implementing efficient CI/CD pipelines using Jenkins, Docker, and Kubernetes. Active participant in Agile Scrum teams, delivering solutions for the telecommunications sector.',
+    'Experienced Software Developer in Berlin, specializing in backend technologies including Java, Kotlin, and Spring. Proficient in developing robust microservices, enhancing legacy monolith applications, and implementing efficient CI/CD pipelines using Jenkins, Docker, and Kubernetes. Active participant in Agile Scrum teams, delivering solutions for the telecommunications sector.',
 }
 
 export default function RootLayout({

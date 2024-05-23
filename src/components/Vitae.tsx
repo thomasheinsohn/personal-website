@@ -21,6 +21,17 @@ const resources = [
     ],
   },
   {
+    title: 'Working Student (Title: Inhouse IT-Consulant)',
+    description: 'proAlpha Business Solutions GmbH, Berlin (2020)',
+    subdescription: [
+      'Actively participated in the implementation of a new project management tool',
+      'Supported the goLive team in daily operations, and managed the migration, verification, and documentation of project data',
+    ],
+  },
+]
+
+const educations = [
+  {
     title:
       'Master of Science (M.Sc.) Applied Computer Science / Software Engineering',
     description: 'Nordakademie University of Business, Hamburg (2020 - 2024)',
@@ -40,17 +51,17 @@ const resources = [
       'Bachelor’s Thesis: Creating a Return on Investment Analysis for Industry 4.0',
     ],
   },
+]
+
+const achivements = [
   {
-    title: 'Working Student (Title: Inhouse IT-Consulant)',
-    description: 'proAlpha Business Solutions GmbH, Berlin (2020)',
-    subdescription: [
-      'Actively participated in the implementation of a new project management tool',
-      'Supported the goLive team in daily operations, and managed the migration, verification, and documentation of project data',
-    ],
+    title: 'Planned Educational Trip to China',
+    description: 'China (2024)',
+    subdescription: ['14 days of Academic Program and Cultural Exposure'],
   },
   {
     title: 'Developing the online presence of a sports psychologist',
-    description: 'Private Project',
+    description: 'Private Project (2024)',
     subdescription: [
       'Developed a website with React, NextJS, TypeScript considering SEO, Google Ranking and GMaps',
       'Managed hosting, domain registration, and continuous deployment using GitHub Actions, NameCheap and Vercel',
@@ -58,14 +69,10 @@ const resources = [
     ],
   },
   {
-    title: 'Planned Educational Trip to China (2024)',
-    description: 'China (2024)',
-    subdescription: ['14 days of Academic Program and Cultural Exposure'],
-  },
-  {
     title: 'Educational Trip to India',
     description: 'India (2023)',
     subdescription: [
+      '21 days of Academic Program and Cultural Exposure',
       'Academic Program: Engaged in company visits and lectures for firsthand insights into local enterprises',
       'Cultural Exposure and Social Interaction: Interacted with locals to enhance cross-cultural communication skills',
     ],
@@ -93,7 +100,7 @@ export function Vitae() {
         </p> */}
       </Container>
       <Container size="sm" className="mt-10">
-        <ol role="list" className="-mx-3 grid grid-cols-1 gap-y-10 xl:-mx-12">
+        <ol role="list" className="-mx-3 grid grid-cols-1 gap-y-8 xl:-mx-12">
           {resources.map((resource) => (
             <li
               key={resource.title}
@@ -109,6 +116,68 @@ export function Vitae() {
                 <div className="mt-1 text-base text-slate-800">
                   <ol className="list-inside list-disc">
                     {resource.subdescription.map((elements, index) => (
+                      <li className="my-2" key={index}>
+                        {elements}
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </Container>
+      <Container size="sm" className="mt-10">
+        <ol
+          role="list"
+          className="-mx-3 grid grid-cols-1 gap-y-8 border-t-2 pt-8 xl:-mx-12"
+        >
+          {educations.map((education) => (
+            <li
+              key={education.title}
+              className="grid auto-rows-min grid-cols-1 items-start gap-10 px-3 sm:gap-y-12 xl:px-14"
+            >
+              <div>
+                <h3 className="text-lg font-bold tracking-tight text-blue-950">
+                  {education.title}
+                </h3>
+                <p className="mt-1 text-base text-slate-600">
+                  {education.description}
+                </p>
+                <div className="mt-1 text-base text-slate-800">
+                  <ol className="list-inside list-disc">
+                    {education.subdescription.map((elements, index) => (
+                      <li className="my-2" key={index}>
+                        {elements}
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </Container>
+      <Container size="sm" className="mt-10">
+        <ol
+          role="list"
+          className="-mx-3 grid grid-cols-1 gap-y-6 border-t-2 pt-8 xl:-mx-12"
+        >
+          {achivements.map((achivement) => (
+            <li
+              key={achivement.title}
+              className="grid auto-rows-min grid-cols-1 items-start gap-10 px-3 sm:gap-y-12 xl:px-14"
+            >
+              <div>
+                <h3 className="text-lg font-bold tracking-tight text-blue-950">
+                  {achivement.title}
+                </h3>
+                <p className="mt-1 text-base text-slate-600">
+                  {achivement.description}
+                </p>
+                <div className="mt-1 text-base text-slate-800">
+                  <ol className="list-inside list-disc">
+                    {achivement.subdescription.map((elements, index) => (
                       <li className="my-2" key={index}>
                         {elements}
                       </li>
