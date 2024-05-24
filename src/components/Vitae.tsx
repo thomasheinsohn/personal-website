@@ -4,7 +4,7 @@ import { SectionHeading } from '@/components/SectionHeading'
 const resources = [
   {
     title: 'Lead Software Developer (Title: Lead Consultant)',
-    description: 'CGI Deutschland B.V. & Co. KG, Berlin (since 2024)',
+    description: 'CGI Inc., Berlin (since 2024)',
     subdescription: [
       'Engineer and develop backend applications utilizing Java, Kotlin, Spring, and SQL',
       'Development of new microservices and the splitting of a monolith into microservices',
@@ -14,7 +14,7 @@ const resources = [
   },
   {
     title: 'Software Developer (Title: Consultant)',
-    description: 'CGI Deutschland B.V. & Co. KG, Berlin (2020 - 2024)',
+    description: 'CGI Inc., Berlin (2020 - 2024)',
     subdescription: [
       'Java backend developer building microservices in an agile environment',
       'Dual Master’s Program in cooperation with Nordakademie University',
