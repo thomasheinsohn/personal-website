@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
-import contactPhoto from '@/images/me.png'
+import contactPhoto from '@/images/photo3.png'
 import { Github, Linkedin, Mail } from 'lucide-react'
 
 export function Contact() {

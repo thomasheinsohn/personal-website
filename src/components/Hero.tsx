@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
-import coverImage from '@/images/profile-pricture.jpeg'
+import coverImage from '@/images/photo1.png'
 
 export function Hero() {
   return (
@@ -18,7 +18,7 @@ export function Hero() {
               />
             </div>
 
-            <div className="relative z-10 mx-auto flex w-64 rounded-xl bg-slate-600 shadow-xl md:w-80 lg:w-auto">
+            <div className="relativ z-10 mx-auto flex w-64 rounded-xl bg-slate-600 shadow-xl md:w-80 lg:w-96">
               <Image className="w-full" src={coverImage} alt="" priority />
             </div>
           </div>
