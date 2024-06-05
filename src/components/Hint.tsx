@@ -9,15 +9,12 @@ export function Hint() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-3xl font-semibold tracking-tight text-slate-900">
-          I am an experienced software developer with over four years of job
-          expertise, specializing in backend development, mainly using Java,
-          Spring Framework, and RESTful APIs. I am currently working on a large
-          project for a major telecommunications company, where I use my Java
-          skills to improve system functions and user experiences. I am good at
-          solving problems, working with others, and making sure everyone in
-          technical teams communicates well. I am also skilled in various
-          architectural styles, including microservices, cloud services, and
-          database management.
+          I am an experienced software developer located in Berlin with four
+          years of expertise, specializing in Java backend development,
+          primarily using Java, Spring, SQL and RESTful APIs. I am currently
+          working on a large project for a major telecommunications company,
+          where I leverage my Java skills to develop features and endpoints and
+          enhance user experiences.
         </p>
       </Container>
     </section>
