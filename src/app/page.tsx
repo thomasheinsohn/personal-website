@@ -9,13 +9,13 @@ import { Competence } from '@/components/Competence'
 export default function Home() {
   return (
     <>
-      <Hero />
+      {/* <Hero />
       <Hint />
       <NavBar />
       <Competence />
       <Vitae />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
